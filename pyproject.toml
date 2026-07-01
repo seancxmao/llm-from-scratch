@@ -1,0 +1,16 @@
+[project]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=1.21.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.6.1",
+    "numpy>=2.5.0",
+    "tensorflow>=2.21.0",
+    "tiktoken>=0.13.0",
+    "torch>=2.12.1",
+    "tqdm>=4.68.3",
+]
